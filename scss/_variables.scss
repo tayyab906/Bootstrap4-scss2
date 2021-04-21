@@ -1,0 +1,72 @@
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+// colors
+$main-color: #7857fe;
+$white-color: #ffffff;
+$color1: #e91e63;
+$color2: #f5ae10;
+$color3: #09d69c;
+$bg-dark: #2b2c2f;
+$main-to-dark-color: $main-color;
+$dark-to-main-color: $bg-dark;
+$shadow-black-100: 0 5px 15px rgba(0,0,0,0.1);
+$shadow-black-300: 0 5px 15px rgba(0,0,0,0.3);
+$black-900: #000000;
+$black-400: #555555;
+$black-100: #f7f7f7;
+$black-000: #ffffff;
+
+
+@mixin mybtn {
+    background-color: $white-color;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    color: $main-color;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    box-shadow: $shadow-black-300;
+    font-weight: 500;
+    margin-top: 1rem;
+
+    
+}
+
+
+@mixin mybtn2 {
+    background-color: $main-color;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    color: $white-color;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    box-shadow: $shadow-black-300;
+    font-weight: 500;
+    margin-top: 1rem;
+
+    
+}
+@mixin mybtn3 {
+    background-color: $main-color;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    color: $white-color;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    box-shadow: $shadow-black-300;
+    font-weight: 500;
+    margin-top: 1rem;
+
+    
+}
+
+
+section{
+    padding: 80px 0;
+}
